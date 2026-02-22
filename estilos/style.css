@@ -39,6 +39,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--destaque);
+  z-index: 1;
 }
 
 nav#menu ul {
